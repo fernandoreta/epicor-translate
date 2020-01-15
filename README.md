@@ -1,4 +1,4 @@
-# translate-script
+# translate-script with Google Translate API
 Require 
 npm i moment
 npm i loadash
