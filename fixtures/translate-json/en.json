@@ -1,0 +1,11 @@
+{
+  "ep.grid": {
+    "textField": "Select an article...",
+    "contains": "Contains",
+    "equal": "Equal to",
+    "notEqual": "Not equal",
+    "notContains": "Not contains",
+    "startsWith": "Starts with",
+    "endsWith": "Ends with"
+  }
+}
