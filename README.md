@@ -1,11 +1,16 @@
 # Translate-script // json file with Google Translate API
-Require 
-npm i moment //
-npm i loadash //
-npm i path //
-npm i superagent //
-npm i superagent-promise //
 
-1. Paste your json file content into fixtures/translate-json/en.json
-2. Execute into the folder project: node APIKEY fileStringsToTranslate languages. EXAMPLE: node APIKEY fixtures/translate-json/en.json es,fr,ru,zh
-3. All files goes into fixtures/translate-json
+## Usage
+1. Clone this repo
+2. Run `npm install`
+3. Paste your json file content into fixtures/translate-json/en.json
+4. Execute in the folder project: node translate-json APIKEY fileStringsToTranslate languages. 
+    * EXAMPLE: node translate-json APIKEY fixtures/translate-json/en.json es,fr,ru,zh
+5. All files goes into fixtures/translate-json
+
+## Libraries used
+* moment
+* loadash
+* path
+* superagent
+* superagent-promise
